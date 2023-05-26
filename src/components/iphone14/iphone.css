@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.iphone__photo{
+    width: 100%;
+    height: 680px;
+    background-image: url(../../assets/one.jpg);
+    background-size: cover;
+    margin-top: 30px;
+
+}
+.iphone__h1{
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+    padding-top: 30px;
+}
+.iphone__h2{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+}
+.iphone__btn{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.btn__one{
+    width: 160px;
+    height: 30px;
+    text-align: center;
+    color: blue;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    margin-left: 41%;
+    display: flex;
+    align-items: center;
+}
+.btn__two{
+    width: 160px;
+    height: 30px;
+    text-align: center;
+    color: blue;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+
+}

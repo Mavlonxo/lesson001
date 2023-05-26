@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.item{
+    width: 100%;
+    height: 1600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item__one{
+    width: 50%;
+    height: 600px;
+    text-align: center;
+    background-image: url(../assets/four.jpg);
+    background-size: cover;
+}
+.item__one__h1{
+    padding-top: 60px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 39%;
+}
+.item__one__h3{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.item__one__btn{
+    background-color: transparent;
+    border: none;
+    color: blue;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.item__photoes{
+    width: 100%;
+    height: 400px;
+    margin-top: -100px;
+}
+.item__two{
+    width: 50%;
+    height: 600px;
+    background-image: url(../assets/five.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding-top: 400px;
+}
+.item__two__h1{
+    color: white;
+}
+.item__two__h2{
+    margin-bottom: 20px;
+}
+.item__three{
+    width: 50%;
+    height: 600px;
+    background-image: url(../assets/six.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    margin-top: -380px;
+}
+.item__one__h3{
+    color: black;
+    font-size: 30px;
+    padding-top: 30px;
+}
+.item__four{
+    width: 50%;
+    height: 600px;
+    background-image: url(../assets/seven.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    margin-top: -380px;
+}
+.item__four__h1{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 700;
+}
+.item__four__h3{
+    margin-top: 20px;
+}
+.item__Icon{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.item__Icon{
+    margin-left: -50px;
+}
+.item__five{
+    width: 50%;
+    height: 600px;
+    background-image: url(../assets/nine.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    margin-top: -300px;
+}
+.item__six{
+    width: 50%;
+    height: 600px;
+    background-image: url(../assets/eight.jpg);
+    background-size: cover;
+    text-align: center;
+    color: black;
+    margin-top: -300px;
+}
+.item__five__h1{
+    color: black;
+    padding-top: 30px;
+}
+.item__five__h3{
+    margin-top: 20px;
+    font-weight: 500;
+    color: black;
+}
+button{
+    cursor: pointer;
+}
+.item__five__btn{
+    color: blue;
+    border: none;
+    background-color: transparent;
+    font-size: 17px;
+    margin-top: 10px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+}
+.item__six__h1{
+    margin-top: 30px;
+}
+.item__six__h2{
+    color: #444;
+    margin-top: 20px;
+    font-weight: 600;
+}
